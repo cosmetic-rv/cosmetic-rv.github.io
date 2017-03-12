@@ -1,0 +1,3 @@
+# robots.txt fuer http://www.cosmetic-rv.de/
+User-agent: *
+Disallow: /bilder/     # Bilder nicht downloaden

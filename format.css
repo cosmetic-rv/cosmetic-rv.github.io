@@ -1,0 +1,169 @@
+/* CSS Datei: "format.css" */
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: #663399;
+  background-color: #CC99CC;
+  text-align: center;
+}
+
+div {
+  border: 0px solid;
+}
+
+#content {
+  width: 740px;
+  height: 100%;
+  margin: auto;          /* Damit die inneren div Bereiche zentriert werden */
+  text-align: left;
+}
+
+#top {
+  width:  100%;
+  height: 250px;
+  background-image: url(bilder/hintergrund/bg_top.gif);
+}
+
+#top_left {
+  position: absolute;
+  float: left;
+  margin-left: 100px;
+  width: 360px;
+  height: 250px;
+}
+
+#top_middle {
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  margin-left: 470px;
+  text-align:center;
+  background-image: url(bilder/hintergrund/bg_rechts.gif);
+}
+
+#route {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(bilder/route/route_to_own_blb180.gif);
+}
+
+#route_context {
+  width: 165px;
+  padding:5px;
+  margin-top: 70px;
+  margin-left: 10px;
+  position: absolute;
+  font-family: arial, verdana, helvetica;
+  font-size:  8pt;
+  text-align: left;
+}
+
+#top_right {
+  width: 70px;
+  height: 250px;
+  position: absolute;
+  margin-left: 670px;
+}
+
+#navi {
+  width: 100%;
+  height: 14px;
+  padding: 5px 0 5px 0;
+  margin-top: 5px;
+  word-spacing: 25px;
+  text-align: center;
+  font-size: 10pt;
+}
+
+#info {
+  width: 100%;
+  height: 205px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#middle {
+  width: 100%;
+  height: 420px;
+  background-image: url(bilder/hintergrund/bg_middle.gif);
+}
+
+#middle_left {
+  position: absolute;
+  width: 165px;
+  height: 420px;
+  float: left;
+  margin-left: 100px;
+}
+
+#middle_right {
+  width: 405px;
+  position: absolute;
+  margin-left: 265px;
+  text-align: left;
+}
+
+#open {
+  width: 405px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+#work {
+  width: 405px;
+  height: 200px;
+  margin-top: 10px;
+}
+#work_left {
+  width: 185px;
+  height: 200px;
+  float: left;
+}
+
+#work_right {
+  width: 215px;
+  height: 200px;
+  margin-left: 185px;
+}
+#about {
+  width: 405px;
+  height: 75px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#zitat {
+  width: 405px;
+  height: 50px;
+  text-align: center;
+}
+
+#bottom {
+  clear: both;
+  width: 100%;
+  height: 15px;
+  background-image: url(bilder/hintergrund/bg_bottom.gif);
+}
+
+.xl { font-size: 14px; }
+.l  { font-size: 12px; }
+.m  { font-size: 11px; }
+.s  { font-size: 10px; }
+
+.item {
+  width: 175px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+a {
+  color: #336633;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

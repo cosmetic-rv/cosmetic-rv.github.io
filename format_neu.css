@@ -1,0 +1,179 @@
+/************* format.css *************/
+
+/* ---------------------------------- */
+/* CONTENT                            */
+/* ---------------------------------- */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: #663399;
+  background-color: #CC99CC;
+}
+
+#content {
+  width: 800px;
+  position: absolute;
+  /* center the main-container */
+  margin-left: 50%;
+  left: -400px;
+  top: 25px;
+}
+
+/* ---------------------------------- */
+/* TOP CONTENT                        */
+/* ---------------------------------- */
+
+/* All main-containers have an absolute position */
+#top {
+  width:  800px;
+  height: 350px;
+  background-image: url(bilder/hintergrund/bg_oben.gif);
+}
+
+#top_left {
+  width: 180px;
+  height: 350px;
+  position: absolute;
+  left: 0;
+  float: left;
+}
+
+#top_middle {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  left: 180px;
+  float: left;
+}
+
+#top_div {
+  width: 200px;
+  height: 350px;
+  position: absolute;
+  left: 530px;
+  float: left;
+}
+
+#top_right {
+  width: 70px;
+  height: 350px;
+  position: absolute;
+  left: 730px;
+  float: left;
+}
+/* ---------------------------------- */
+/* Top Content Containers             */
+/* ---------------------------------- */
+#login {
+  width: 180px;
+  height: 150px;
+  position: relative;
+  top: 25px;
+  text-align: left;
+}
+
+/* ---------------------------------- */
+/* VERTICAL NAVIGATION                */
+/* ---------------------------------- */
+#vertical_navi {
+  width: 180px;
+  height: 175px;
+  position: relative;
+  top: 25px;
+}
+
+#vertical_navi ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+#vertical_navi ul li {
+  margin-top: 10px;
+  padding: 0px;
+}
+#vertical_navi ul li a {
+  font-size: 10pt;
+  display: block;
+  text-decoration: none;
+  padding: 5px 0px 0px 10px;
+  color: #336633;
+  width:180px;
+}
+
+#vertical_navi ul li a:hover, #vertical_navi ul li a:focus {
+  background-color: #e3d6e9;
+}
+
+/* ---------------------------------- */
+/* TOP NAVIGATION                     */
+/* ---------------------------------- */
+#navi {
+  width: 100%;
+  height: 14px;
+  padding: 5px 0 5px 0;
+  margin-top: 5px;
+  word-spacing: 25px;
+  text-align: center;
+  font-size: 10pt;
+}
+
+/* ---------------------------------- */
+/* MIDDLE CONTENT */
+/* ---------------------------------- */
+#middle {
+  width:  800px;
+  height: 300px;
+  background-image: url(bilder/hintergrund/bg_mitte.gif);
+}
+
+
+/* ---------------------------------- */
+/* BOTTOM CONTENT */
+/* ---------------------------------- */
+
+
+
+/* ---------------------------------- */
+/* FORMAT                             */
+/* ---------------------------------- */
+.xl { font-size: 14px; }
+.l  { font-size: 12px; }
+.m  { font-size: 11px; }
+.s  { font-size: 10px; }
+
+a {
+  color: #336633;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  height: 20px;
+  width: 75px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  font-size: 8pt;
+  background-color: #e3d6e9;
+  border: 2px solid #a1c4b4;
+  color: #663399;
+  cursor: pointer;
+}
+
+.field {
+  position: relative;
+  left: 10px;
+  background-color: #e3d6e9;
+  border: 1px solid #a1c4b4;
+}
+
+.inputTitle {
+  position: relative;
+  left: 10px;
+  font-size: 7pt;
+  text-align: left;
+}
