@@ -50,17 +50,6 @@ div {
   background-image: url(bilder/route/route_to_own_blb180.gif);
 }
 
-#route_context {
-  width: 165px;
-  padding:5px;
-  margin-top: 70px;
-  margin-left: 10px;
-  position: absolute;
-  font-family: arial, verdana, helvetica;
-  font-size:  8pt;
-  text-align: left;
-}
-
 #top_right {
   width: 70px;
   height: 250px;
